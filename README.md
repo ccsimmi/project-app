@@ -4,5 +4,7 @@ This project is my first attempt at utilising the technologies of: HTML, CSS3, G
 The aims of this project is to: 
 1) attempt to understand GIT by utilsiing it in a project
 2) understand how far my CSS layout skills have progressed
-NB: I have been coding for just over a month at the start of this project.
-NB2: https://dribbble.com/shots/9730914-Wallie-Digital-Wallet is the link to the project I am recreating
+ 
+Notes
+1) I have been coding for just over a month at the start of this project.
+2) https://dribbble.com/shots/9730914-Wallie-Digital-Wallet is the link to the project I am recreating
