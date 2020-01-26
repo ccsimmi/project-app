@@ -9,8 +9,8 @@
 .screen {
     width: 300px;
     height: 550px;
-    border: black solid 1px;
     border-radius: 40px;
+    background-color: #26c165;
 }
 
 .sign-up {
@@ -18,20 +18,23 @@
     justify-content: flex-start;
     align-items: center;
     width: 300px;
-    height: 100px;
-    border: red solid 2px;
+    height: 75px;
 }
 
 .arrow {
-    width: 10px;
-    height: 10px;
-    border: pink 2px solid;
+    width: 40px;
+    height: 20px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transform: scale(0.7);
 }
 
 .signbutton {
     width: 70px;
-    height: 70px;
-    border: pink solid 2px;
+    margin-top: 30px;
+    padding-left: 5px;
+    color: white;
 }
 
 .logo-name {
@@ -41,39 +44,71 @@
     align-items: center;
     width: 300px;
     height: 200px;
-    border: purple solid 2px;
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 80%;
+    height: 200px;
     border: red 2px solid;
 }
 
-.name {
-    width: 70px;
-    height: 70px;
-    border: red 2px solid;
+.small-name{
+    width: 80%;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: -30px;
+    color: white;
+}
+
+.name input {
+    width: 270px;
+    height: 30px;
+    outline: none;
+    background-color: #26c165;
+    border: none;
+    color: white;
+    border-bottom: white solid 1px;
+}
+
+input::placeholder {
+    color: white;
 }
 
 .usernumber {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
     height: 75px;
-    border: red 2px solid;
+}
+
+.enter-number {
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 14px;
+    color: white;
+}
+
+.number input {
+    height: 30px;
+    outline: none;
+    background-color: #26c165;
+    border: none;
+    color: white;
+    border-bottom: white solid 1px;
+}
+
+.number img {
+    
 }
 
 .country {
-    width: 70px;
-    height: 70px;
-    border: pink 2px solid;
+    width: 50px;
+    text-align: end;
 }
 
-.number {
-    width: 70px;
-    height: 70px;
-    border: pink 2px solid;
-}
 
 .pass-and-continue {
     display: flex;
@@ -95,3 +130,5 @@
     height: 80px;
     border: brown 2px solid;
 }
+
+/* #131a22 <- color for continue button */
