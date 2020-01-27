@@ -56,12 +56,12 @@
     width: 80%;
     height: 20px;
     margin-top: 60px;
-    margin-left: -30px;
+    margin-left: 20px;
     color: white;
 }
 
 .name input {
-    width: 270px;
+    width: 220px;
     height: 30px;
     outline: none;
     background-color: #26c165;
@@ -83,15 +83,19 @@ input::placeholder {
 }
 
 .enter-number {
-    width: 100px;
+    width: 80%;
     height: 20px;
-    margin-top: 10px;
-    align-self: flex-start;
-    margin-left: 14px;
+    margin-left: 20px;
     color: white;
+    margin-top: 10px;
+    
 }
 
+
+
 .number input {
+    margin-right: -31px;
+    width: 150px;
     height: 30px;
     outline: none;
     background-color: #26c165;
@@ -100,14 +104,17 @@ input::placeholder {
     border-bottom: white solid 1px;
 }
 
-.number img {
-    
+
+select {
+    height: 33px;
+    outline: none;
+    background-color: #26c165;
+    border: none;
+    color: white;
+    border-bottom: white solid 1px;
+    margin-left: -28px;
 }
 
-.country {
-    width: 50px;
-    text-align: end;
-}
 
 
 .pass-and-continue {
@@ -116,19 +123,34 @@ input::placeholder {
     align-items: center;
     width: 300px;
     height: 160px;
-    border: purple 2px solid;
 }
 
 .password {
-    width: 100px;
-    height: 80px;
-    border: brown 2px solid;
+    width: 80%;
+    height: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.enter-password input {
+    width: 220px;
+    height: 30px;
+    outline: none;
+    background-color: #26c165;
+    border: none;
+    color: white;
+    border-bottom: white solid 1px;
 }
 
 .continue{
-    width: 100px;
-    height: 80px;
-    border: brown 2px solid;
+    width: 220px;
+    height: 30px;
+    background-color: #131a22;
+    border-radius: 15px;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
 }
 
 /* #131a22 <- color for continue button */

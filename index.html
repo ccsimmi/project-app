@@ -9,8 +9,7 @@
                 <div class="screen"> <!-- container for all screens [1] -->
                     <div class="sign-up"> <!-- container for sign-in button-->
                         <div class="arrow" > <img src="images/iconmonstr-arrow-left-thin-32.png" alt="go-back"> </div>
-                        <div class="signbutton"> Sign up </div>
-                    </div>
+                        <div class="signbutton"> Sign up </div>                   </div>
                     <div class="logo-name"> <!-- container for logo and name field-->
                         <div class="logo"> <img src= "#"> </div>
                         <div class="small-name"> Full Name </div>
@@ -18,11 +17,17 @@
                     </div>
                     <div class="usernumber"> <!-- container for country and phone number-->
                         <div class="enter-number"> Phone Number  </div>
-                        <div class="number"> <img src="#"> <input class="country" type="text" placeholder="US+1"> <input class="US-num" type="text" placeholder="898860119">  </div>
+                        <div class="number"> 
+                             <select name="country"> 
+                                 <option value="US+1"> US+1 </option>
+                                 <option value="UK+44"> UK+44</option>
+                            </select>
+                            <input class="US-num" type="text" placeholder="898860119">  </div>
                     </div>
                     <div class="pass-and-continue"> <!-- container for password and continue-->
-                        <div class="password"></div>
-                        <div class="continue"></div>
+                        <div class="password"> Password </div>
+                        <div class="enter-password"> <input type="text" placeholder="Enter Password"> </div>
+                        <div class="continue"> Continue </div>
                     </div>
                         
                 </div>
